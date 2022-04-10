@@ -7,7 +7,7 @@ def greet(person):
     print(f"Hello there {person}")
     print(f"we have {guests} guests")
     # ????? the following  three lines lead to an error, the reason is unclear
-    # if age >= 18:
-    #     print("you can come join us")
-    #     guests += 1 
+    if age >= 18:
+        print("you can come join us")
+        guests += 1 
 # greeting = greet('Todd')
