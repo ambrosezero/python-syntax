@@ -10,4 +10,4 @@ def greet(person):
     if age >= 18:
         print("you can come join us")
         guests += 1 
-# greeting = greet('Todd')
+greeting = greet('Todd')
